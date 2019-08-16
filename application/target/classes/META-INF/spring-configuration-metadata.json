@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.application.config.AppConfigure",
+      "name": "custom.application",
+      "type": "com.example.application.config.AppConfigure"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.application.config.AppConfigure",
+      "name": "custom.application.key1",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.application.config.AppConfigure",
+      "name": "custom.application.key2",
+      "type": "java.lang.String"
+    }
+  ]
+}

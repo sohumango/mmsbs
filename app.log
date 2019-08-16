@@ -1,0 +1,46 @@
+2019/08/16 12:35:11 INFO  [main] - Starting Application v0.0.1-SNAPSHOT on MacBook-Pro-2.local with PID 74865 (/Users/wang/oh/test/java/mmsbs/application/target/mmsbs.jar started by wang in /Users/wang/oh/test/java/mmsbs)
+2019/08/16 12:35:11 INFO  [main] - No active profile set, falling back to default profiles: default
+2019/08/16 12:35:11 INFO  [main] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12bb4df8: startup date [Fri Aug 16 12:35:11 JST 2019]; root of context hierarchy
+2019/08/16 12:35:12 INFO  [main] - Tomcat initialized with port(s): 8088 (http)
+2019/08/16 12:35:12 INFO  [main] - Starting service [Tomcat]
+2019/08/16 12:35:12 INFO  [main] - Starting Servlet Engine: Apache Tomcat/8.5.16
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Initializing Spring embedded WebApplicationContext
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Root WebApplicationContext: initialization completed in 1374 ms
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Mapping servlet: 'dispatcherServlet' to [/]
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019/08/16 12:35:12 INFO  [localhost-startStop-1] - Mapping filter: 'requestContextFilter' to: [/*]
+2019/08/16 12:35:13 INFO  [main] - Building JPA container EntityManagerFactory for persistence unit 'default'
+2019/08/16 12:35:13 INFO  [main] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019/08/16 12:35:13 INFO  [main] - HHH000412: Hibernate Core {5.0.12.Final}
+2019/08/16 12:35:13 INFO  [main] - HHH000206: hibernate.properties not found
+2019/08/16 12:35:13 INFO  [main] - HHH000021: Bytecode provider name : javassist
+2019/08/16 12:35:13 INFO  [main] - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019/08/16 12:35:13 INFO  [main] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019/08/16 12:35:14 INFO  [main] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019/08/16 12:35:14 INFO  [main] - AppConfigure init : AppConfigure(key1=app_a, key2=app_b)
+2019/08/16 12:35:14 INFO  [main] - DomainConfigure init : DomainConfigure(key1=domain_c, key2=domain_d)
+2019/08/16 12:35:14 INFO  [main] - CommonConfigure init : CommonConfigure(key1=common_e, key2=common_f, datePattern=yyyy-MM-dd)
+2019/08/16 12:35:14 INFO  [main] - MemoController init : config.key1:app_a, config.key2:app_b, key3:ajToeoe04jtmtU
+2019/08/16 12:35:14 INFO  [main] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12bb4df8: startup date [Fri Aug 16 12:35:11 JST 2019]; root of context hierarchy
+2019/08/16 12:35:15 INFO  [main] - Mapped "{[/memo/id/{id}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.example.application.vo.MemoView> com.example.application.controller.MemoController.id(java.lang.Long)
+2019/08/16 12:35:15 INFO  [main] - Mapped "{[/memo/title/{title}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<java.util.List<com.example.application.vo.MemoView>> com.example.application.controller.MemoController.title(java.lang.String,org.springframework.data.domain.Pageable)
+2019/08/16 12:35:15 INFO  [main] - Mapped "{[/memo/id2/{id}],methods=[GET],produces=[application/json;charset=UTF-8]}" onto public com.example.application.vo.MemoView com.example.application.controller.MemoController.id2(java.lang.Long)
+2019/08/16 12:35:15 INFO  [main] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019/08/16 12:35:15 INFO  [main] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019/08/16 12:35:15 INFO  [main] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019/08/16 12:35:15 INFO  [main] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019/08/16 12:35:15 INFO  [main] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019/08/16 12:35:15 INFO  [main] - Registering beans for JMX exposure on startup
+2019/08/16 12:35:15 INFO  [main] - Tomcat started on port(s): 8088 (http)
+2019/08/16 12:35:15 INFO  [main] - Started Application in 4.456 seconds (JVM running for 4.84)
+2019/08/16 12:36:48 INFO  [http-nio-8088-exec-1] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019/08/16 12:36:48 INFO  [http-nio-8088-exec-1] - FrameworkServlet 'dispatcherServlet': initialization started
+2019/08/16 12:36:48 INFO  [http-nio-8088-exec-1] - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019/08/16 12:36:48 INFO  [http-nio-8088-exec-1] - id - id:1, config.key1:app_a, config.key2:app_b, key3:ajToeoe04jtmtU
+2019/08/16 12:36:48 INFO  [http-nio-8088-exec-1] - findById - id:1, config.key1:domain_c, config.key2:domain_d
+2019/08/16 12:36:54 INFO  [http-nio-8088-exec-3] - id - id:1, config.key1:app_a, config.key2:app_b, key3:ajToeoe04jtmtU
+2019/08/16 12:36:54 INFO  [http-nio-8088-exec-3] - findById - id:1, config.key1:domain_c, config.key2:domain_d

@@ -1,0 +1,28 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.domain.config.DomainConfigure",
+      "name": "custom.domain",
+      "type": "com.example.domain.config.DomainConfigure"
+    },
+    {
+      "sourceType": "com.example.domain.datasource.DataSourceConfigure",
+      "name": "spring.datasource",
+      "sourceMethod": "datasource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.domain.config.DomainConfigure",
+      "name": "custom.domain.key1",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.domain.config.DomainConfigure",
+      "name": "custom.domain.key2",
+      "type": "java.lang.String"
+    }
+  ]
+}
