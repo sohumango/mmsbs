@@ -1,0 +1,4 @@
+application/target/*
+domain/target/*
+common/target/*
+application/app.log
