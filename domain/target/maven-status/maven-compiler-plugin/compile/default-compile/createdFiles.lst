@@ -1,8 +1,0 @@
-META-INF/spring-configuration-metadata.json
-com/example/domain/datasource/DataSourceConfigure.class
-com/example/domain/entity/Memo$MemoBuilder.class
-com/example/domain/service/MemoService.class
-com/example/domain/service/impl/MemoServiceImpl.class
-com/example/domain/entity/Memo.class
-com/example/domain/repository/MemoRepository.class
-com/example/domain/config/DomainConfigure.class
